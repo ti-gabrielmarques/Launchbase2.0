@@ -7,7 +7,7 @@ const pessoas = [
     idade: 23,
     contribuicao: 2
     }
-]
+];
 
 function calculaImc(peso, altura, nome) {
     const imc = peso / (altura * altura);
@@ -35,4 +35,4 @@ function calculaAposentadoria(idade, contribuicao, sexo, nome) {
 }
 
 calculaImc(pessoas[0].peso, pessoas[0].altura, pessoas[0].nome);
-calculaAposentadoria(pessoas[0].idade, pessoas[0].contribuicao, pessoas[0].sexo, pessoas[0].nome)
+calculaAposentadoria(pessoas[0].idade, pessoas[0].contribuicao, pessoas[0].sexo, pessoas[0].nome);
